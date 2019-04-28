@@ -21,7 +21,7 @@
      * IoT Key：與WISE-PaaS IotHub連線所需的資訊，從APM Portal建立Gateway時取得。
      * Credential Url：與WISE-PaaS IotHub連線所需的資訊，從APM Portal建立Gateway時取得。
      * Publish Interval：資料上傳頻率。\(若為0則是設備資料有變化才上傳\)
-   * Whitelist Setting：設定設備資料上傳的白名單，下拉選擇設備之後，會列出該設備下的測點清單，勾選並設定好Deadband範圍即可。
+   * Whitelist Setting：設定設備資料上傳的白名單，下拉選擇Gateway和該Gateway下的設備之後，會列出該設備下的測點清單，勾選並設定好Deadband範圍即可。
 2. 設定完後，按下Save即開始傳送資料到WISE-PaaS。
 
 ![](/assets/complete.png)
