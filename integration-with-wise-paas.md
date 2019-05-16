@@ -24,5 +24,5 @@
    * Whitelist Setting：設定設備資料上傳的白名單，下拉選擇Gateway和該Gateway下的設備之後，會列出該設備下的測點清單，勾選並設定好Deadband範圍即可。
 2. 設定完後，按下Save即開始傳送資料到WISE-PaaS。
 
-![](/assets/complete.png)
+![](/assets/complete1.png)
 
