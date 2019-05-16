@@ -16,6 +16,7 @@
 1. 點擊左側的WISE-PaaS Setting進行連線和白名單設定
    * Connection Setting：WISE-PaaS相關的連線資訊各屬性描述如下
      * Launch：是否啟動資料上傳功能。
+     * Master Address：選定一台gateway address去接收所有gateway的export data。
      * SRP Type：支援的WISE-PaaS SRP類型，目前支援WISE-PaaaS/APM和SCADA。
      * APM ID：WISE-PaaS/APM的識別碼，從APM Portal建立Gateway時取得。
      * IoT Key：與WISE-PaaS IotHub連線所需的資訊，從APM Portal建立Gateway時取得。
