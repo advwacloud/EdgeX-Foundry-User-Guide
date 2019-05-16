@@ -4,7 +4,7 @@
 
 以下步驟會說明如何透過設定將EdgeX設備的數據上傳到WISE-PaaS/APM。
 
-1. 請用瀏覽器開啟EdgeX Foundry Console網頁，網址為http://{IP}:4000，{IP}為Docker Containers所運行的電腦IP，Name和Password都是admin，登入畫面如下。
+1. 請用瀏覽器開啟EdgeX Foundry Console網頁，網址為[http://{IP}:4000，{IP}為Docker](http://{IP}:4000，{IP}為Docker) Containers所運行的電腦IP，Name和Password都是admin，登入畫面如下。
 
 ![](/assets/login.png)
 
@@ -16,8 +16,8 @@
 1. 點擊左側的WISE-PaaS Setting進行連線和白名單設定
    * Connection Setting：要在master node的portal做WISE-PaaS Setting, 多gateway的機制才可以正常運作，WISE-PaaS相關的連線資訊各屬性描述如下
      * Launch：是否啟動資料上傳功能。
-     * Master Address：選定一台gateway address去接收所有gateway的export data。
-     * SRP Type：支援的WISE-PaaS SRP類型，目前支援WISE-PaaaS/APM和SCADA。
+     * Master Address：必須填寫EdgeX Foundry Console該台的gateway address, 用途是該gateway會去接收和管理所有gateway的export data。
+     * SRP Type：支援的WISE-PaaS SRP類型，目前支援WISE-PaaaS/APM。
      * APM ID：WISE-PaaS/APM的識別碼，從APM Portal建立Gateway時取得。
      * IoT Key：與WISE-PaaS IotHub連線所需的資訊，從APM Portal建立Gateway時取得。
      * Credential Url：與WISE-PaaS IotHub連線所需的資訊，從APM Portal建立Gateway時取得。
